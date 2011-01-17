@@ -1,0 +1,18 @@
+A colletion of functionality that might be useful to some people if you're looking for some low level C/C++ code to do something interesting, it has the following:
+- allocater replacement
+- hash table (uses google. see abscope for my hand-rolled hash table if you're interested)
+- http server
+- typed dynamic array
+- file and directory manipulation
+- thread locking
+- very basic serialization (abscope does this better too)
+- tar reader
+- timing functions
+- networking wrapper 
+
+check out the unittest/ to see what has unittests and how thorough they are. 
+
+As I said, I've never actually used this whole thing for anything, the abscope project is actually tested and hardened if you need anything that actually works, but that doesn't have networking code in it of you're looking for a starting place for that.
+
+Good luck!
+Aaron Brady
